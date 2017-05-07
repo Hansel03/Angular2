@@ -5,7 +5,7 @@ Utilizando el QUICKSTART de angular.io para afianzar conocimientos de *ngIf y *n
 
 --------------------
 - Descargar o clonar el QuickStart seed de https://angular.io/docs/ts/latest/guide/setup.html
-- Eliminar archivos inecesarios con el siguiente comando en windows:
+- Eliminar archivos innecesarios con el siguiente comando en windows:
 
 ```sh
 $ for /f %i in (non-essential-files.txt) do del %i /F /S /Q
