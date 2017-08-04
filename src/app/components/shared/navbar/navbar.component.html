@@ -1,0 +1,26 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ <img alt="Brand" src="assets/img/A-64.png" width="30" height="30" >
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item" routerLinkActive="active">
+          <!--routerLink, para hacer el ruteo entre los componentes-->
+          <!--routerLinkActive, para obtener una clase cuando la ruta este activa-->
+          <a class="nav-link" href="" [routerLink]="['home']">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" href="" [routerLink]="['heroes']">Heroes</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link" href="" [routerLink]="['about']">About</a>
+        </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Buscar Héroe" (keyup.enter)="buscarHeroe(buscarTexto.value)" #buscarTexto>
+      <button (click)="buscarHeroe(buscarTexto.value)" class="btn btn-outline-primary my-2 my-sm-0" type="button">Buscar</button>
+    </form>
+  </div>
+</nav>
