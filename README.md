@@ -1,6 +1,27 @@
 # Angular2
 aprendiendo angular 2
 
+Esta aplicación está hecha con angularCli 
+
+toda la documentación se encuentra en : https://cli.angular.io/
+
+Al descargar el repositorio utilizar :
+
+```sh
+$ npm install -g @angular/cli
+$ npm install
+```
+
+para descargar las dependencias de NodeJs
+
+para correr la aplicación utilizar:
+
+```sh
+$ ng server
+```
+
+
+
 Utilizando el QUICKSTART de angular.io para afianzar conocimientos de *ngIf y *ngFor
 
 --------------------
@@ -20,7 +41,5 @@ $ npm install
 $ npm start
 ```
 --------------------
-Esta aplicación está hecha con angularCli 
 
-toda la documentación se encuentra en : https://cli.angular.io/
 	
