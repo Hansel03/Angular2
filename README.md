@@ -19,5 +19,8 @@ $ rd e2e /s /q
 $ npm install
 $ npm start
 ```
-	
+--------------------
+Esta aplicación está hecha con angularCli 
+
+toda la documentación se encuentra en : https://cli.angular.io/
 	
