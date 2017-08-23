@@ -20,6 +20,8 @@ para correr la aplicación utilizar:
 $ ng server
 ```
 
+Luego abrir en el navegador http://localhost:4200
+
 
 
 Utilizando el QUICKSTART de angular.io para afianzar conocimientos de *ngIf y *ngFor
